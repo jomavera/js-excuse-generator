@@ -17,10 +17,10 @@ const when = [
 ];
 
 window.onload = function() {
-  let who_ix = Math.floor(Math.random() * 5);
-  let action_ix = Math.floor(Math.random() * 5);
-  let what_ix = Math.floor(Math.random() * 4);
-  let when_ix = Math.floor(Math.random() * 6);
+  let who_ix = Math.floor(Math.random() * who.length);
+  let action_ix = Math.floor(Math.random() * action.length);
+  let what_ix = Math.floor(Math.random() * what.length);
+  let when_ix = Math.floor(Math.random() * when.length);
 
   //write your code here
 
@@ -33,5 +33,4 @@ window.onload = function() {
     " " +
     when[when_ix] +
     ".";
-  console.log("Hello Rigo from the console!");
 };
