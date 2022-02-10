@@ -1,10 +1,4 @@
 /* eslint-disable */
-import "bootstrap";
-import "./style.css";
-
-import "./assets/img/rigo-baby.jpg";
-import "./assets/img/4geeks.ico";
-
 const who = ["The dog", "My grandma", "His turtle", "My bird"];
 const action = ["ate", "peed", "crushed", "broke"];
 const what = ["my homework", "the keys", "the car"];
